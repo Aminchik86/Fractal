@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    background: url(../img/bg/1613226190_4-p-fon-sinii-gradient-dlya-fotoshopa-4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 64px 0;
+}
+
+.bg {
+    display: flex;
+    margin: 0 0 0 250px;
+    
+}
+
+.text-bg {
+    align-items: center;
+    padding-top: 250px;
+    font-size: 29px;
+    color: #282928;
+}
+
+.text-bg h1{
+    margin: 0 0 0 280px;
+    font-size: 56px;
+}
+
+.text-bg a {
+    color: #282928;
+}
+
+.text-bg a:hover {
+    color: #000000;
+}
+
+.phone-images img {
+    width: 350px;
+    padding-top: 170px;
+}
+#slidebar {
+    position: fixed;
+    width: 250px;
+    left: -250px;
+    border: 2px solid #282828;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.37);
+    -moz-transition: all 600ms;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+}
+
+#slidebar.active {
+    left: 0px;
+}
+
+#slidebar ul li:first-child {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.95em;
+    list-style: none;
+    padding: 25px 10px 10px 10px;
+}
+#slidebar ul li:not(:first-child) {
+    width: 90%;
+    margin-left: 10%;
+    font-size: 1.1em;
+    list-style: none;
+    padding: 15px 10px;
+}
+
+#slidebar ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#slidebar ul li a:hover {
+    color: #2c2929;
+    border-bottom: 1px solid #000;
+}
+
+#slidebar .toggle-btn {
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    background: rgb(133, 133, 133);
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#slidebar .toggle-btn span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    margin: 4px 0;
+}
+
+#slidebar .toggle-btn:hover {
+    background: #adabab;
+}
+
+#slidebar .toggle-btn:hover span {
+    background: #fafafa;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+}
+
+.images-about-us1 img {
+    width: 150px;
+    border-radius: 170px;
+    margin-left: 270px;
+    padding-top: 45px;
+}   
+
+.text-about-us {
+    padding-top: 70px;
+    margin-left: 17px;
+    padding-bottom: 50px;
+}
+
+.contact {
+    background-color: #000;
+}
+
+.contact-con {
+    text-align: center;
+    padding: 50px 5px 0 0; 
+}
+
+#massage {
+    width: 370px;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    background: #282828;  
+    border-radius: 15px;
+}
+
+#inp1 {
+    background: #282828;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.footer-menu {
+    text-align: center;
+    margin: 40px;
+    padding: 15px;
+}
+
+.footer-menu img {
+    width: 50px;
+}
+
+.footer-menu p {
+    padding-top: 15px;  
+}
